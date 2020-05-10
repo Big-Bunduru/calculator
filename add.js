@@ -1,9 +1,5 @@
-const add = function(x,y) {
+function add(x,y) {
     return x + y
 }
 
-added = add(3,5)
-
-console.log(added)
-
-module.exports = 'add'
+module.exports = { add }
