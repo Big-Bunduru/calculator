@@ -1,6 +1,12 @@
-const division = function(x,y) {
-    return x / y
+function division(x,y) {
+    const result = x / y
+    return result
 }
 
+divided = division(3,5)
 
-module.exports = 'division'
+console.log(divided)
+
+module.exports = {
+    division: division
+}

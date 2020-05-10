@@ -1,5 +1,6 @@
-const division = require ('./division')
+const division = require('./division')
+const add = require('./add')
 
-divisionResult = division(8,4)
+const added = add(8,4)
 
-console.log(divisionResult)
+console.log(added)
