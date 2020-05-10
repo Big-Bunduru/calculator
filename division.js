@@ -1,6 +1,5 @@
-const division = function(x,y) {
+function division(x,y) {
     return x / y
 }
 
-
-module.exports = 'division'
+module.exports = { division }

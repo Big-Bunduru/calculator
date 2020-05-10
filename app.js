@@ -1,5 +1,5 @@
-const division = require ('./division')
+const division = require('./division')
 
-divisionResult = division(8,4)
+let divisionResult = division.division(8,4)
 
 console.log(divisionResult)
